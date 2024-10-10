@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BU GPA Calculator</h1>
+        <div class="calculator">
+            <div class="result">
+                <label>Semester GPA</label>
+                <input type="text" id="semesterGPA" disabled>
+            </div>
+            <div class="form">
+                <div class="header">
+                    <div>Credit Hour</div>
+                    <div>Subject</div>
+                    <div>Marks</div>
+                    <div>Grade</div>
+                </div>
+                <!-- 10 rows for data input -->
+                <div class="rows">
+                    <div class="row">
+                        <input type="number" class="credit-hour">
+                        <input type="text" class="subject">
+                        <input type="number" class="marks">
+                        <input type="text" class="grade" disabled>
+                    </div>
+                    <div class="row">
+                        <input type="number" class="credit-hour">
+                        <input type="text" class="subject">
+                        <input type="number" class="marks">
+                        <input type="text" class="grade" disabled>
+                    </div>
+                    <div class="row">
+                        <input type="number" class="credit-hour">
+                        <input type="text" class="subject">
+                        <input type="number" class="marks">
+                        <input type="text" class="grade" disabled>
+                    </div>
+                    <div class="row">
+                        <input type="number" class="credit-hour">
+                        <input type="text" class="subject">
+                        <input type="number" class="marks">
+                        <input type="text" class="grade" disabled>
+                    </div>
+                    <div class="row">
+                        <input type="number" class="credit-hour">
+                        <input type="text" class="subject">
+                        <input type="number" class="marks">
+                        <input type="text" class="grade" disabled>
+                    </div>
+                    <div class="row">
+                        <input type="number" class="credit-hour">
+                        <input type="text" class="subject">
+                        <input type="number" class="marks">
+                        <input type="text" class="grade" disabled>
+                    </div>
+                    <div class="row">
+                        <input type="number" class="credit-hour">
+                        <input type="text" class="subject">
+                        <input type="number" class="marks">
+                        <input type="text" class="grade" disabled>
+                    </div>
+                    <div class="row">
+                        <input type="number" class="credit-hour">
+                        <input type="text" class="subject">
+                        <input type="number" class="marks">
+                        <input type="text" class="grade" disabled>
+                    </div>
+                    <div class="row">
+                        <input type="number" class="credit-hour">
+                        <input type="text" class="subject">
+                        <input type="number" class="marks">
+                        <input type="text" class="grade" disabled>
+                    </div>
+                    <div class="row">
+                        <input type="number" class="credit-hour">
+                        <input type="text" class="subject">
+                        <input type="number" class="marks">
+                        <input type="text" class="grade" disabled>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button onclick="calculateGPA()">Calculate</button>
+                    <button onclick="resetForm()">Reset</button>
+                    <button onclick="showHelp()">Help</button>
+                    <button onclick="location.href='cgpa.html'">Calculate CGPA</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

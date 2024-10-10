@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CGPA Calculator</h1>
+        <div class="calculator">
+            <div class="result">
+                <label>Cumulative GPA</label>
+                <input type="text" id="cumulativeGPA" disabled>
+                <label>Credit Hours</label>
+                <input type="text" id="cumulativeCreditHours" disabled>
+            </div>
+            <div class="form">
+                <div class="header">
+                    <div>Semester GPA</div>
+                    <div>Semester Credit Hours</div>
+                    <div>Previous CGPA</div>
+                    <div>Previous Credit Hours</div>
+                </div>
+                <div class="row">
+                    <input type="number" id="semesterGPA">
+                    <input type="number" id="semesterCreditHours">
+                    <input type="number" id="previousCGPA">
+                    <input type="number" id="previousCreditHours">
+                </div>
+                <div class="buttons">
+                    <button onclick="calculateCGPA()">Calculate</button>
+                    <button onclick="resetCGPAForm()">Reset</button>
+                    <button onclick="showHelp()">Help</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="cgpa.js"></script>
+</body>
+</html>

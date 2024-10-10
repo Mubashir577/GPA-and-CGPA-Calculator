@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+}
+
+.container {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    width: 350px;
+    transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.calculator {
+    margin-top: 20px;
+}
+
+.result {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.result label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.result input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    background-color: #333;
+    color: #fff;
+}
+
+.result input:disabled {
+    background-color: #222;
+}
+
+.form {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.row input {
+    width: 22%;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    background-color: #333;
+    color: #fff;
+}
+
+.row input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+.row:hover {
+    background-color: #444;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.buttons button:hover {
+    background-color: #555;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+}
+
+.container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.1);
+    width: 350px;
+    transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+    box-shadow: 0 0 30px rgba(255,255,255,0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.calculator {
+    margin-top: 20px;
+}
+
+.result {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.result label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.result input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.result input:disabled {
+    background-color: #555;
+}
+
+.form {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.row input {
+    width: 22%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.row input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+.row:hover {
+    background-color: #444;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
